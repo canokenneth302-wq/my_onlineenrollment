@@ -14,3 +14,7 @@ This project demonstrates a collaborative software development workflow using Gi
 The workflow includes forking, branching, committing, pushing, reviewing, and merging changes.
 
 This workflow promotes version control, code review, collaboration, and maintainable software development practices.
+
+## Collaborative Development
+
+This project follows a structured collaborative development workflow using Git and GitHub. Feature changes are developed in dedicated branches, reviewed through pull requests, and integrated into the main project after resolving any merge conflicts.
