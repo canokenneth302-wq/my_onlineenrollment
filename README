@@ -14,3 +14,7 @@ This project demonstrates a collaborative software development workflow using Gi
 The workflow includes forking, branching, committing, pushing, reviewing, and merging changes.
 
 This workflow promotes version control, code review, collaboration, and maintainable software development practices.
+
+## Professional Development Workflow
+
+This project follows a professional development workflow using Git and GitHub. Changes are developed independently, reviewed collaboratively, and integrated into the main project after successful validation.
