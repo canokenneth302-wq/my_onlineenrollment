@@ -1,0 +1,15 @@
+{
+  "gates": {
+    "commands": [
+      {
+        "name": "noop",
+        "command": "echo gate-ok"
+      }
+    ],
+    "deploymentCheck": "verified",
+    "prTest": {
+      "enabled": true,
+      "deployCheck": "verified"
+    }
+  }
+}
