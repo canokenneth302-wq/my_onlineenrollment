@@ -1,1 +1,20 @@
-Hello World!
+## GitHub Collaboration Workflow
+
+This project demonstrates a collaborative software development workflow using Git and GitHub. The contribution was developed in an isolated feature branch and submitted through a Pull Request for review before being merged into the main branch.
+
+### Contribution Summary
+
+- Created a dedicated feature branch for the modification.
+- Updated the project documentation with relevant information.
+- Committed the changes with a descriptive commit message.
+- Pushed the feature branch to GitHub.
+- Submitted the changes through a Pull Request for peer review.
+- Incorporated review feedback before merging the contribution.
+
+The workflow includes forking, branching, committing, pushing, reviewing, and merging changes.
+
+This workflow promotes version control, code review, collaboration, and maintainable software development practices.
+
+## Professional Collaborative Development
+
+This project follows a structured development workflow using Git and GitHub. Feature changes are developed in dedicated branches, reviewed collaboratively through pull requests, and integrated into the main project after successful validation and conflict resolution.
