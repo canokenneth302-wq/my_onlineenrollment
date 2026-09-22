@@ -1,0 +1,32 @@
+
+name: Hello GitHub Actions
+
+on:
+  push:
+    branches: [ "master" ]
+
+jobs:
+  hello:
+    runs-on: ubuntu-latest
+
+    env:
+      MY_NAME: Katherine
+
+    steps:
+      - name: Say Hello
+        run: echo 'Hello, GitHub Actions!'
+
+      - name: Say My Name
+        run: echo "My name is $MY_NAME!"
+
+      - name: use secret
+        run: echo "MY secret is ${{secrets.MY_SECRET}}"
+
+  goodbye:
+    needs: hello
+    if: success()
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Say Goodbye
+        run: echo 'Goodbye, GitHub!'
