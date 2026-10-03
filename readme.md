@@ -9,3 +9,14 @@ The platform guidance in this repository has not been independently reproduced. 
 Review code and dependencies before running anything. Use a disposable environment and synthetic data only; do not submit genetic, biometric, EEG, health, or other personal data. Nothing here is a medical device, diagnosis, treatment, clinical recommendation, or validated assistive technology.
 
 For the maintained research-software project, setup instructions, and available tests, see [DNA-Blockchain/Helloworld](https://github.com/DNA-Blockchain/Helloworld).
+
+## Public vector index
+
+`public_vector_index.py` reports the public object inventory beneath
+`s3://amzn-s3-rabbit-software/vectors/`. It is read-only: local corpus,
+research, and identity data are never uploaded by this adapter. Run
+`python public_vector_index.py` to check its availability.
+
+Set `RABBIT_VECTOR_BUCKET` or `RABBIT_VECTOR_PREFIX` to use another public
+location. Do not publish genetic, biometric, health, or other identifying data
+to this bucket.
