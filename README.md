@@ -1,0 +1,8 @@
+Hello World!
+## About This Repository
+
+This is a sandbox repository for experimenting with code, testing workflows, and exploring new tools. It serves as a safe space to try out ideas without worrying about breaking production systems.
+
+Feel free to fork, clone, or use this repo as a starting point for your own projects.
+
+Happy coding!
