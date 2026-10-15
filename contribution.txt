@@ -1,0 +1,7 @@
+My First Pull Request
+
+I am learning GitHub collaboration.
+
+Forking creates a personal copy of a repository. Branches allow independent development. Pull requests help propose and review changes.
+
+This is my first practice contribution.
